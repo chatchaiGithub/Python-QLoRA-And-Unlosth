@@ -13,9 +13,9 @@ from trl import SFTTrainer
 from datasets import Dataset, DatasetDict
 
 # Configuration
-MODEL_NAME = "./Kunoichi-DPO-v2-7B"
+MODEL_NAME = "./YOUR_MODEL_FOLDER"
 OUTPUT_DIR = "./emotional-qlora-output"
-DATASET_FILE = "high_quality_training_data_50000.json"
+DATASET_FILE = "YOUR_TRAING_FILE"
 
 MAX_SEQ_LENGTH = 512
 BATCH_SIZE = 2  # Reduced for stability
